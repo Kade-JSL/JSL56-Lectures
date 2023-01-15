@@ -16,7 +16,7 @@
 
 # 유용한 링크
 
-- [수업에서 사용하는 이클립스 프로젝트(**jslhrdServlet**), WAR, ZIP 파일](/999999_ETC/3_project/)
+- [현재 수행 중인 프로젝트](/999999_ETC/3_project/personalportfolio1/)
 - [**한-일 코딩 용어 간단 비교표**(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
 - [**한-일 코딩 용어 설명 및 번역 정리**(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
