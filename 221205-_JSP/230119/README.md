@@ -1,0 +1,13 @@
+﻿
+## 집합연산
+
+- 합집합: UNION
+- 차집합: MINUS
+- 교집합: INTERSECT
+
+## 여러 제약조건들에 대한 실습
+
+- PRIMARY KEY
+- UNIQUE
+- CHECK
+- ON DELETE
