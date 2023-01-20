@@ -123,4 +123,5 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 }
 ```
 
+- GSON은 Java 8과 호환되는 2.8.2 버전을 사용했습니다. [**이 링크**](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar)를 클릭하면 바로 다운로드됩니다.
 - DAO 부분은 평범하게 JOIN을 활용한 쿼리 메서드가 되겠습니다. 도움이 되었으면 좋겠습니다.
