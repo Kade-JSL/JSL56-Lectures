@@ -17,7 +17,7 @@ public class DBManager {
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String id = "***REMOVED***";
-		String pw = "***REMOVED***";
+		String pw = ***REMOVED***;
 		
 		try {
 			Class.forName(driver);

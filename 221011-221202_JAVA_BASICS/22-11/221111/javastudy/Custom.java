@@ -2,7 +2,7 @@
 
 abstract class CustomAdmin {
     private static String adminID = "admin";
-    private static String adminPW = "***REMOVED***";
+    private static String adminPW = ***REMOVED***;
 
     static void setAdminId(String id, String authId, String authPw) {
         if (authId.equals(adminID) && authPw.equals(adminPW)) {

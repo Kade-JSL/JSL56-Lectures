@@ -8,7 +8,7 @@
 ---
 
 # 숙제
-- 계정명이 `jslhrd05`(아니면 뭐 아무거나) 비밀번호가 `***REMOVED***`(아니면 뭐 아무거나)인 계정 생성하기
+- 계정명이 `jslhrd05`(아니면 뭐 아무거나) 비밀번호가 `1234`(아니면 뭐 아무거나)인 계정 생성하기
 - `CONNECT`, `RESOURCE`, `DBA` 권한을 위 계정에 부여하기
 - `test` 테이블을 만들기
     - 각각의 컬럼 내용은 `bno`, `name`, `kor`, `eng`, `mat`, `tot`, `avg`이며 각각의 자료형은 `bno`가 4자리 숫자, `name`이 10자리 글자, `kor`~`tot`까지 3자리 숫자, `avg`는 총 6자리에 소수점 아래가 2자리인 숫자이다.
@@ -52,12 +52,12 @@
 - DB에 계정을 만들어 달라고 부탁이 들어왔다고 하자.
     - `system` 계정에 로그인해서 `kade` 계정을 만들어 줄 것이다.
     ```SQL
-    CREATE USER kade IDENTIFIED BY ***REMOVED***;
+    CREATE USER kade IDENTIFIED BY 1234;
     ```
     - 같은 이름의 계정은 하나밖에 만들 수 없다.
     ```SQL
-    SQL> CREATE USER kade IDENTIFIED BY ***REMOVED***;
-    CREATE USER kade IDENTIFIED BY ***REMOVED***
+    SQL> CREATE USER kade IDENTIFIED BY 1234;
+    CREATE USER kade IDENTIFIED BY 1234
                 *
     ERROR at line 1:
     ORA-01920: user name 'KADE' conflicts with another user or role name

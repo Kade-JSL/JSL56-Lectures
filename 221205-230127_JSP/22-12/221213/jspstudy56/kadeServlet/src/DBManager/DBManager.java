@@ -13,7 +13,7 @@ public class DBManager {
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		String url = "jdbc:oracle:thin:@localhost:1521:xe"; // 현역에선 orcl을 쓸 터이다
 		String user = "***REMOVED***";
-		String password = "***REMOVED***";
+		String password = ***REMOVED***;
 		
 		try {
 			Class.forName(driver);

@@ -24,7 +24,7 @@ public class DBConn {
         Connection conn;
         /* 드라이버 로딩 */
         String driver = "oracle.jdbc.driver.OracleDriver",
-                url = "jdbc:oracle:thin:@localhost:1521:xe", user = "***REMOVED***", pw = "***REMOVED***";
+                url = "jdbc:oracle:thin:@localhost:1521:xe", user = "***REMOVED***", pw = ***REMOVED***;
 
         /* DBW 접속 */
         Class.forName(driver);

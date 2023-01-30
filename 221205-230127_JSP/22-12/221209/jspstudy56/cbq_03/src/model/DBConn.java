@@ -14,7 +14,7 @@ public class DBConn {
 		
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String user = "***REMOVED***";
-		String password = "***REMOVED***";
+		String password = ***REMOVED***;
 		
 		try {
 			Class.forName(driver);

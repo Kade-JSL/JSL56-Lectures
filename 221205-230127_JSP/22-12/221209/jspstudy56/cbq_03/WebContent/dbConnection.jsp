@@ -5,7 +5,7 @@
 <%
 try {
 Class.forName("oracle.jdbc.OracleDriver");
-Connection con = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xe", "***REMOVED***", "***REMOVED***");
+Connection con = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xe", "***REMOVED***", ***REMOVED***);
 if (con != null) {
 out.println("Database Connection : [ " + " <b>success</b> ]<br>");
 } else {

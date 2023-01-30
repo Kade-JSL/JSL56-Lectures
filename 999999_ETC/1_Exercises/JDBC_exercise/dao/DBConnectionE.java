@@ -16,7 +16,7 @@ public class DBConnectionE {
 
         String url = "jdbc:oracle:thin:@localhost:1521:xe";
         String id = "***REMOVED***";
-        String pw = "***REMOVED***";
+        String pw = ***REMOVED***;
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver"); // throws ClassNotFoundException
