@@ -8,7 +8,7 @@ import java.io.OutputStream;
 public class Stream {
 
 	public static void main(String[] args) throws Exception {
-		OutputStream out = new FileOutputStream("C:/DirSweetDir/JSL56-lectures/221205-_JSP/230106/hello.txt");
+		OutputStream out = new FileOutputStream("C:/DirSweetDir/JSL56-lectures/221205-230127_JSP/230106/hello.txt");
 		
 		byte[] array = new byte[] { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!' };
 		
@@ -16,7 +16,7 @@ public class Stream {
 		out.flush();
 		out.close();
 		
-		InputStream in = new FileInputStream("C:/DirSweetDir/JSL56-lectures/221205-_JSP/230106/hello.txt");
+		InputStream in = new FileInputStream("C:/DirSweetDir/JSL56-lectures/221205-230127_JSP/230106/hello.txt");
 		
 		byte[] buffer = new byte[1024];
 		
