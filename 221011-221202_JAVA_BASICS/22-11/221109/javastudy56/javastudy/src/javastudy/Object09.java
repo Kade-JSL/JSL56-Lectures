@@ -14,7 +14,7 @@ public class Object09 {
     }
 
     public void printResult() {
-        if (id.equals("abce") && pw.equals(***REMOVED***)) { // 문자열을 비교할 땐 ==가 아니라 equals() 메서드를 사용할 것
+        if (id.equals("abce") && pw.equals("***REMOVED***")) { // 문자열을 비교할 땐 ==가 아니라 equals() 메서드를 사용할 것
             System.out.println("로그인되었습니다.");
         } else {
             System.out.println("아이디 또는 패스워드를 확인하세요.");

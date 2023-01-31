@@ -8,7 +8,7 @@ Copyright (c) 1982, 2014, Oracle.  All rights reserved.
 Connected to:
 Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
 
-SQL> create user kade05 identified ***REMOVED***;
+SQL> create user kade05 identified by 1234;
 
 User created.
 
