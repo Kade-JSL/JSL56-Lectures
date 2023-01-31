@@ -19,7 +19,7 @@ public class DBConnection {
 
         String url = "jdbc:oracle:thin:@localhost:1521:xe"; // 외우자.
         String id = "bankdba";
-        String pw = "bank***REMOVED***";
+        String pw = "bank1234";
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver"); // 이건 좀 외울 만 하다.
