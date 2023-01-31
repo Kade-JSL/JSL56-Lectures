@@ -1,4 +1,4 @@
-C:\Users\cucup>sqlplus system/***REMOVED***
+C:\Users\cucup>sqlplus system/1234
 
 SQL*Plus: Release 11.2.0.2.0 Production on 목 10월 13 17:29:08 2022
 
@@ -8,7 +8,7 @@ Copyright (c) 1982, 2014, Oracle.  All rights reserved.
 Connected to:
 Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
 
-SQL> create user kade05 identified by ***REMOVED***;
+SQL> create user kade05 identified by 1234;
 
 User created.
 
