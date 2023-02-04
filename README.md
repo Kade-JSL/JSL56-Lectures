@@ -16,9 +16,9 @@
 
 # 유용한 링크
 
-- [현재 수행 중인 프로젝트](/999999_ETC/3_project/personalportfolio1/)
-- [**한-일 코딩 용어 간단 비교표**(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
-- [**한-일 코딩 용어 설명 및 번역 정리**(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
+- [**MVC모델을 사용한 진도용 프로젝트: kade-MVC**](http://oeuiuapk8ruwdv1pu8ye.duckdns.org:10880/kade-jsl/kade-MVC)
+- [한-일 코딩 용어 간단 비교표(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
+- [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
     - [json-simple 1.1.1](https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar)
     - [**JavaMail API 1.4.7**](https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.7/javax.mail-1.4.7.jar)
