@@ -1,4 +1,4 @@
-﻿### [230104 ←](/221205-230127_JSP/230104/) | [→ 230109](/221205-230127_JSP/230109/)
+﻿### [230104 ←](../../221205-230127_JSP/230104/) | [→ 230109](../../221205-230127_JSP/230109/)
 
 # 이날 배웠던 것
 
@@ -43,7 +43,7 @@
 ## 출력 스트림 실습
 
 ```java
-OutputStream out = new FileOutputStream(".../221205-230127_JSP/230106/hello.txt");
+OutputStream out = new FileOutputStream("...../../221205-230127_JSP/230106/hello.txt");
 // 출력할 파일을 생성자에 넣어 출력 스트림 객체를 생성
 
 byte[] array = new byte[] { 'H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!' };
@@ -65,7 +65,7 @@ Hello, World!
 ## 입력 스트림 실습
 
 ```java
-InputStream in = new FileInputStream(".../221205-230127_JSP/230106/hello.txt");
+InputStream in = new FileInputStream("...../../221205-230127_JSP/230106/hello.txt");
 		
 byte[] buffer = new byte[1024];
 

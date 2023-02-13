@@ -1,23 +1,23 @@
-﻿### [221212 ←](/221205-230127_JSP/22-12/221212/) | [→ 221214](/221205-230127_JSP/22-12/221214/)
+﻿### [221212 ←](../../221205-230127_JSP/22-12/221212/) | [→ 221214](../../221205-230127_JSP/22-12/221214/)
 
 # 이날 배웠던 것
 
 - [Jakarta Taglibs Standard 1.1.2](http://archive.apache.org/dist/jakarta/taglibs/standard/binaries/jakarta-taglibs-standard-1.1.2.zip)
 
-- [/src/](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/)
-    - [controller/](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/)
-        - [**Sub2Servlet.java**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub2Servlet.java): `SELECT *`
-        - [**Sub3Servlet.java**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub3Servlet.java): `INNER JOIN`
-        - [**Sub4Servlet.java**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub4Servlet.java): `INNER JOIN` **"2배"**
-    - [dao/](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dao/)
-        - [**ArtistDao.java**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dao/ArtistDao.java): 세 개의 `SELECT` 쿼리 메서드 추가
-    - [dto/](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dto/)
-        - [**ArtistDto.java**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dto/ArtistDto.java)
-- [/WebContent/](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/)
-    - [**sub2.jsp**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub2.jsp): JSTL core 본격 구사하기
-    - [**sub3.jsp**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub3.jsp)
-    - [**sub4.jsp**](/221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub4.jsp): fmt까지 써 보도록 하자
-        - _[똑같은 기능을 구현한 다른 소스 코드](/221205-230127_JSP/22-12/221208/jspstudy56/cbq_02/WebContent/read-rank.jsp)와 비교해 보죠._
+- [/src/](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/)
+    - [controller/](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/)
+        - [**Sub2Servlet.java**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub2Servlet.java): `SELECT *`
+        - [**Sub3Servlet.java**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub3Servlet.java): `INNER JOIN`
+        - [**Sub4Servlet.java**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/controller/Sub4Servlet.java): `INNER JOIN` **"2배"**
+    - [dao/](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dao/)
+        - [**ArtistDao.java**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dao/ArtistDao.java): 세 개의 `SELECT` 쿼리 메서드 추가
+    - [dto/](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dto/)
+        - [**ArtistDto.java**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/src/dto/ArtistDto.java)
+- [/WebContent/](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/)
+    - [**sub2.jsp**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub2.jsp): JSTL core 본격 구사하기
+    - [**sub3.jsp**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub3.jsp)
+    - [**sub4.jsp**](../../221205-230127_JSP/22-12/221213/jspstudy56/kadeServlet/WebContent/sub4.jsp): fmt까지 써 보도록 하자
+        - _[똑같은 기능을 구현한 다른 소스 코드](../../221205-230127_JSP/22-12/221208/jspstudy56/cbq_02/WebContent/read-rank.jsp)와 비교해 보죠._
 
 ---
 

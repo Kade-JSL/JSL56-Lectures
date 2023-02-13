@@ -1,15 +1,15 @@
-﻿### [221215 ←](/221205-230127_JSP/22-12/221215/) | [→ 221219](/221205-230127_JSP/22-12/221219/)
+﻿### [221215 ←](../../221205-230127_JSP/22-12/221215/) | [→ 221219](../../221205-230127_JSP/22-12/221219/)
 
 # 이날 배웠던 것
 
-- [/src/com/jslhrd/](/221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/)
-    - [controller/notice/](/221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/controller/notice/)
-        - [**NoticeView.java**](/221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/controller/notice/NoticeView.java): 게시물 보기 컨트롤러
-    - [dao/](/221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/dao/)
-        - [**NoticeDao.java**](/221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/dao/NoticeDao.java): 게시물 보기 관련 모델
-- [/WebContent/notice/](/221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice)
-    - [**notice.jsp**](/221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice/notice.jsp): noticeview.do로 이동하는 링크 삽입
-    - [**noticeView.jsp**](/221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice/noticeView.jsp): 게시물 뷰
+- [/src/com/jslhrd/](../../221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/)
+    - [controller/notice/](../../221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/controller/notice/)
+        - [**NoticeView.java**](../../221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/controller/notice/NoticeView.java): 게시물 보기 컨트롤러
+    - [dao/](../../221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/dao/)
+        - [**NoticeDao.java**](../../221205-230127_JSP/22-12/221216/jslhrdServlet/src/com/jslhrd/dao/NoticeDao.java): 게시물 보기 관련 모델
+- [/WebContent/notice/](../../221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice)
+    - [**notice.jsp**](../../221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice/notice.jsp): noticeview.do로 이동하는 링크 삽입
+    - [**noticeView.jsp**](../../221205-230127_JSP/22-12/221216/jslhrdServlet/WebContent/notice/noticeView.jsp): 게시물 뷰
 
 ---
 
