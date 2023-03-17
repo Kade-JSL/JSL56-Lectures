@@ -7,15 +7,15 @@
 
 | → | _20_ | _21_ | _22_ | _23_ | _24_ |
 |---|---|---|---|---|---|
-| 3月 | 13 | 14 | [15](../../230130-_Spring/230315/) | [16](../../230130-_Spring/230316/) | [17](../../230130-_Spring/230317/) |
+| 3月 | 13 | 14 | [15](/src/main/230130-_Spring/230315/) | [16](/src/main/230130-_Spring/230316/) | [17](/src/main/230130-_Spring/230317/) |
 || 월 | 화 | 수 | 목 | 금 |
 
 (~~취소선~~: 휴일 또는 휴강, **굵은 글씨**: 현재 주차)
 
 # 유용한 링크
 
-- [한-일 코딩 용어 간단 비교표(Vocabulary.md)](../../999999_ETC/0_docs/Vocabulary.md)
-- [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](../../999999_ETC/0_docs/Glossary.md)
+- [한-일 코딩 용어 간단 비교표(Vocabulary.md)](/src/main/999999_ETC/0_docs/Vocabulary.md)
+- [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](/src/main/999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
     - [Spring Tools Suite 3.9.15](https://download.springsource.com/release/STS/3.9.15.RELEASE/dist/e4.16/spring-tool-suite-3.9.15.RELEASE-e4.16.0-win32-x86_64.zip) 
     - [json-simple 1.1.1](https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar)
