@@ -1,13 +1,13 @@
 ﻿#
-### [221220 ←](../../221205-230127_JSP/22-12/221220/) | [→ 221222](../../221205-230127_JSP/22-12/221222/)
+### [221220 ←](../../../221205-230127_JSP/22-12/221220/) | [→ 221222](../../../221205-230127_JSP/22-12/221222/)
 
 # 이날 배웠던 것
 
 - /src/com/jslhrd/
     - controller/notice/
-        - [Notice.java](../../221205-230127_JSP/22-12/221221/jslhrdServlet/src/com/jslhrd/controller/notice/Notice.java)
+        - [Notice.java](../../../221205-230127_JSP/22-12/221221/jslhrdServlet/src/com/jslhrd/controller/notice/Notice.java)
 - /WebContent/notice/
-    - [notice.jsp](../../221205-230127_JSP/22-12/221221/jslhrdServlet/WebContent/notice/notice.jsp)
+    - [notice.jsp](../../../221205-230127_JSP/22-12/221221/jslhrdServlet/WebContent/notice/notice.jsp)
 
 
 ---

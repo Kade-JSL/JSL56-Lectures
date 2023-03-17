@@ -1,9 +1,9 @@
 ﻿#
-### [221101 ←](/221011-221202_JAVA_BASICS/22-11/221101/) | [→ 221103](/221011-221202_JAVA_BASICS/22-11/221103/)
+### [221101 ←](../../221011-221202_JAVA_BASICS/22-11/221101/) | [→ 221103](../../221011-221202_JAVA_BASICS/22-11/221103/)
 
 # 이날 배웠던 것
 
-- [메서드 정의와 호출, 그 실습](/221011-221202_JAVA_BASICS/22-11/221102/javastudy56/javastudy/src/javastudy/Object07.java): Object07.java
+- [메서드 정의와 호출, 그 실습](../../221011-221202_JAVA_BASICS/22-11/221102/javastudy56/javastudy/src/javastudy/Object07.java): Object07.java
 
 ---
 

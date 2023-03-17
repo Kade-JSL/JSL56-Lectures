@@ -1,12 +1,12 @@
 ﻿#
-### [221031 ←](/221011-221202_JAVA_BASICS/22-10/221031/) | [→ 221102](/221011-221202_JAVA_BASICS/22-11/221102/)
+### [221031 ←](../../221011-221202_JAVA_BASICS/22-10/221031/) | [→ 221102](../../221011-221202_JAVA_BASICS/22-11/221102/)
 
 # 이날 배웠던 것
 
-- [메서드에 대한 약간 다른 접근?](/221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object03.java): Object03.java
-- [이런저런 메서드 만들어보기](/221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object04.java): Object04.java
-- [메서드 호출(呼び出し)과 그 때의 주의점](/221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object05.java): Object05.java
-- [메서드 작성 연습문제](/221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object06.java): Object06.java
+- [메서드에 대한 약간 다른 접근?](../../221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object03.java): Object03.java
+- [이런저런 메서드 만들어보기](../../221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object04.java): Object04.java
+- [메서드 호출(呼び出し)과 그 때의 주의점](../../221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object05.java): Object05.java
+- [메서드 작성 연습문제](../../221011-221202_JAVA_BASICS/22-11/221101/javastudy56/javastudy/src/javastudy/Object06.java): Object06.java
 
 ---
 

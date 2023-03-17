@@ -1,11 +1,11 @@
 ﻿#
-### [221118 ←](/221011-221202_JAVA_BASICS/22-11/221118) | [→ 221122](/221011-221202_JAVA_BASICS/22-11/221122/)
+### [221118 ←](../../221011-221202_JAVA_BASICS/22-11/221118) | [→ 221122](../../221011-221202_JAVA_BASICS/22-11/221122/)
 
 # 이날 배웠던 것
 
-- [**PackageMain.java**: 자바 표준 패키지](/221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/PackageMain.java)
-- [**StringbufferMain.java**: `Stringbuffer` 객체](/221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/StringbufferMain.java)
-- [**MathMain.java**: `Math` 클래스](/221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/MathMain.java)
+- [**PackageMain.java**: 자바 표준 패키지](../../221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/PackageMain.java)
+- [**StringbufferMain.java**: `Stringbuffer` 객체](../../221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/StringbufferMain.java)
+- [**MathMain.java**: `Math` 클래스](../../221011-221202_JAVA_BASICS/22-11/221121/javastudy/controller/MathMain.java)
 
 
 ---

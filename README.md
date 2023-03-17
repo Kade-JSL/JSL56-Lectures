@@ -1,12 +1,12 @@
 #
-
 ### <p align="center">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓<br><a href="https://github.com/Kade-JSL/JSL56-lectures/blob/main/999999_ETC/0_docs/Tutorial.md#%EB%8F%8C%EC%95%84%EC%98%A4%EC%85%A8%EB%82%98%EC%9A%94-%EC%9E%98-%ED%95%98%EC%85%A8%EC%8A%B5%EB%8B%88%EB%8B%A4"><b>리포지토리 사용 설명서</b></a><br>↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑</p>
 
 # Calendar
 
 **최근 5주간의 내용만 메인에 있습니다.**
 
-| → | 13 | 14 | [15](/230130-_Spring/230315/) | _16_ | _17_ |
+| → | _20_ | _21_ | _22_ | _23_ | _24_ |
+| 3月 | 13 | 14 | [15](../../230130-_Spring/230315/) | [16](../../230130-_Spring/230316/) | [17](../../230130-_Spring/230317/) |
 |---|---|---|---|---|---|
 || 월 | 화 | 수 | 목 | 금 |
 
@@ -14,8 +14,8 @@
 
 # 유용한 링크
 
-- [한-일 코딩 용어 간단 비교표(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
-- [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
+- [한-일 코딩 용어 간단 비교표(Vocabulary.md)](../../999999_ETC/0_docs/Vocabulary.md)
+- [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](../../999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
     - [Spring Tools Suite 3.9.15](https://download.springsource.com/release/STS/3.9.15.RELEASE/dist/e4.16/spring-tool-suite-3.9.15.RELEASE-e4.16.0-win32-x86_64.zip) 
     - [json-simple 1.1.1](https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar)

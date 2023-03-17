@@ -1,17 +1,17 @@
 ﻿#
-### [221110 ←](/221011-221202_JAVA_BASICS/22-11/221110) | [→ 221114](/221011-221202_JAVA_BASICS/22-11/221114/)
+### [221110 ←](../../221011-221202_JAVA_BASICS/22-11/221110) | [→ 221114](../../221011-221202_JAVA_BASICS/22-11/221114/)
 
 # 이날 배웠던 것
 
-- [**StudentMain.java**: 어제 한 걸 또 새로 짬](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java)
-    - [**Student.java**: 주석을 좀 더 많이 넣었다고 생각함](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/Student.java)
-    - [**StudentArraySort.java**: 객체배열 정렬을 이 쪽에 몰아넣음](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentArraySort.java)
+- [**StudentMain.java**: 어제 한 걸 또 새로 짬](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java)
+    - [**Student.java**: 주석을 좀 더 많이 넣었다고 생각함](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/Student.java)
+    - [**StudentArraySort.java**: 객체배열 정렬을 이 쪽에 몰아넣음](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentArraySort.java)
 
 ---
 
 # 주말에 한 것
 
-- [**CustomMain.java**](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/CustomMain.java)
+- [**CustomMain.java**](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/CustomMain.java)
     - [1]회원 등록
         - 아이디, 이름, 비밀번호 입력 및 객체 `ArrayList`에 저장
     - ~~[2]회원 로그인~~(미구현)
@@ -22,7 +22,7 @@
             - [3]회원 제거
             - [4]관리자 정보 변경
         - Create, Read, Update, Delete 중에 Update만 아직 구현하지 않음
-- [**Custom.java**](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/Custom.java)
+- [**Custom.java**](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/Custom.java)
     - 상위 클래스인 `CustomAdmin`에 `private static` 변수인 관리자 ID와 PW를 저장
         - 본래는 아예 코드 안에 넣으면 안 되고 전부 SQL에 연계해야 하나 아직은 안 배웠으므로 이 정도만
     - `admin` 계정에 대한 setter 메서드와 getter 메서드를 설정
@@ -30,7 +30,7 @@
         - 본래는 `static` 변수인 `num`만 두고 하나씩만 더해갈 생각이었으나 그러면 정렬이 재미없어질 거 같아서 랜덤으로 네 자릿수를 부여하기로 결정
         - 생성자에 랜덤 회원번호를 `instNum`에 저장하게 함
         - `num` 자체는 남아 있으나 전체 회원수를 세는 데에만 사용
-- [**CustomProcess.java**](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/CustomProcess.java)
+- [**CustomProcess.java**](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/CustomProcess.java)
     - 멤버 변수가 전혀 없이 `Custom` 객체 관련 메서드만 사용하므로 전부 `static`으로 정의
     - `CustomMain`의 메뉴에서 필요한 각종 프롬프트 출력 메서드, 멤버 변수 set/get 메서드를 정의
     - `ascCustomArrayList()`
@@ -66,7 +66,7 @@
 
 ---
 
-## [StudentMain.java](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java): 선생님의 요구사항
+## [StudentMain.java](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java): 선생님의 요구사항
 
 - 메뉴 형식으로 데이터베이스를 띄우는 프로그램을 만들었으면 한다.
 - 숫자 1번을 누르면 데이터베이스 레코드를 입력하고,
@@ -92,8 +92,8 @@
 
 ## 요구사항의 구현
 
-- `main()` 메서드를 가지고 프롬프트에 직접 메시지를 출력하고 멤버 변수들을 입력받는 [StudentMain.java](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java)를 만들었다.
-- 메인 클래스에서 상호작용하는 멤버 변수들과 메서드를 가진 클래스인 [Student.java](/221011-221202_JAVA_BASICS/22-11/221111/javastudy/Student.java)를 만들었다.
+- `main()` 메서드를 가지고 프롬프트에 직접 메시지를 출력하고 멤버 변수들을 입력받는 [StudentMain.java](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/StudentMain.java)를 만들었다.
+- 메인 클래스에서 상호작용하는 멤버 변수들과 메서드를 가진 클래스인 [Student.java](../../221011-221202_JAVA_BASICS/22-11/221111/javastudy/Student.java)를 만들었다.
 
 ### 구현(1) - Student.java
 

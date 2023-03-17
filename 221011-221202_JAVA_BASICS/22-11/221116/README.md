@@ -1,17 +1,17 @@
 ﻿#
-### [221115 ←](/221011-221202_JAVA_BASICS/22-11/221115) | [→ 221117](/221011-221202_JAVA_BASICS/22-11/221117/)
+### [221115 ←](../../221011-221202_JAVA_BASICS/22-11/221115) | [→ 221117](../../221011-221202_JAVA_BASICS/22-11/221117/)
 
 # 이날 배웠던 것
 
-- [**/controller/BankMain.java**: 뭔가 했음. 근데 영양가는 없는 듯하다.](/221011-221202_JAVA_BASICS/22-11/221116/javastudy/controller/BankMain.java)
-- [**/dao/AccountDao.java**: 뭔가 한 것에서 사용되는 메서드 클래스](/221011-221202_JAVA_BASICS/22-11/221116/javastudy/dao/AccountDao.java)
-- [**/dto/AccountDto.java**: 뭔가 한 것에서 사용되는 멤버 변수와 `get()`, `set()`이 있는 클래스](/221011-221202_JAVA_BASICS/22-11/221116/javastudy/dto/AccountDto.java)
+- [**/controller/BankMain.java**: 뭔가 했음. 근데 영양가는 없는 듯하다.](../../221011-221202_JAVA_BASICS/22-11/221116/javastudy/controller/BankMain.java)
+- [**/dao/AccountDao.java**: 뭔가 한 것에서 사용되는 메서드 클래스](../../221011-221202_JAVA_BASICS/22-11/221116/javastudy/dao/AccountDao.java)
+- [**/dto/AccountDto.java**: 뭔가 한 것에서 사용되는 멤버 변수와 `get()`, `set()`이 있는 클래스](../../221011-221202_JAVA_BASICS/22-11/221116/javastudy/dto/AccountDto.java)
 
 ---
 
 ## 상속(Inheritance)
 
-- [_일본에서는 계승(継承)이라고도 합니다._](/999999_ETC/0_docs/Vocabulary.md)
+- [_일본에서는 계승(継承)이라고도 합니다._](../../999999_ETC/0_docs/Vocabulary.md)
 - 기존의 클래스를 재사용하여 새로운 클래스를 작성하는 것
 - 부모 클래스(상위 클래스, superclass, スーパークラス)에서 만들어진 멤버 변수와 메서드를 자식 클래스(하위클래스, subclass, サブクラス)가 물려받는 것
     - == 자손 클래스는 조상 클래스의 모든 멤버를 상속받는다

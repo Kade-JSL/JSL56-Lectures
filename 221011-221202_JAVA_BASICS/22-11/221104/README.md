@@ -1,12 +1,12 @@
 ﻿#
-### [221103 ←](/221011-221202_JAVA_BASICS/22-11/221103/) | [→ 221107](/221011-221202_JAVA_BASICS/22-11/221107/)
+### [221103 ←](../../221011-221202_JAVA_BASICS/22-11/221103/) | [→ 221107](../../221011-221202_JAVA_BASICS/22-11/221107/)
 
 # 이날 배웠던 것
 
-- [메서드 연습 7억 2천만번째](/221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object10.java): Object10.java
-- [메서드 연습 114억 514만번째](/221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object11.java): Object11.java
-- [클래스 기본, 생성자](/221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object12_car.java): Object12_car.java
-    - [클래스 객체 만들어보기](/221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object12.java): Object12.java
+- [메서드 연습 7억 2천만번째](../../221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object10.java): Object10.java
+- [메서드 연습 114억 514만번째](../../221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object11.java): Object11.java
+- [클래스 기본, 생성자](../../221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object12_car.java): Object12_car.java
+    - [클래스 객체 만들어보기](../../221011-221202_JAVA_BASICS/22-11/221104/javastudy56/javastudy/src/javastudy/Object12.java): Object12.java
 
 ---
 

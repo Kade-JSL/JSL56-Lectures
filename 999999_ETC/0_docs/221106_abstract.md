@@ -42,7 +42,7 @@
 
 # 인터페이스
 
-- 자세한 건 [Face01.java](/999999_ETC/1_java/src/exercises/Face01.java)랑 이후 코드에서 서술
+- 자세한 건 [Face01.java](../../999999_ETC/1_java/src/exercises/Face01.java)랑 이후 코드에서 서술
 - 추상 클래스와 같이 인터페이스도 자체적으론 객체를 만들 수 없음
     - 따라서 생성자도 없음
 - 인터페이스 메서드에도 본체가 없음
@@ -58,7 +58,7 @@
 # `enum`
 
 - Enumeration의 약자. 한글로는 `열거형`이라 부른다. 일본어도 동일.
-- 자세한 내용은 [Enum01.java](/999999_ETC/1_java/src/exercises/Enum01.java)랑 이후 코드에서 서술
+- 자세한 내용은 [Enum01.java](../../999999_ETC/1_java/src/exercises/Enum01.java)랑 이후 코드에서 서술
 - `enum` 역시 클래스처럼 특성과 메서드를 가진다.
     - `public`, `static`, `final` 특성을 가짐
 - 객체를 생성할 수 없고, 클래스를 상속받을 수도 없다.

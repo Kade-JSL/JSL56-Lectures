@@ -1,11 +1,11 @@
 ﻿#
-### [221109 ←](/221011-221202_JAVA_BASICS/22-11/221109) | [→ 221111](/221011-221202_JAVA_BASICS/22-11/221111/)
+### [221109 ←](../../221011-221202_JAVA_BASICS/22-11/221109) | [→ 221111](../../221011-221202_JAVA_BASICS/22-11/221111/)
 
 # 이날 배웠던 것
 
-- [OverloadingMain.java: 클래스 생성자 오버로딩](/221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/OverloadingMain.java)
-- [ObjectArrayMain.java: 클래스 배열](/221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/ObjectArrayMain.java)
-    - [ObjectArray.java: 뇌절에 또 뇌절](/221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/ObjectArray.java)
+- [OverloadingMain.java: 클래스 생성자 오버로딩](../../221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/OverloadingMain.java)
+- [ObjectArrayMain.java: 클래스 배열](../../221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/ObjectArrayMain.java)
+    - [ObjectArray.java: 뇌절에 또 뇌절](../../221011-221202_JAVA_BASICS/22-11/221110/javastudy56/javastudy/src/javastudy/ObjectArray.java)
 
 ---
 

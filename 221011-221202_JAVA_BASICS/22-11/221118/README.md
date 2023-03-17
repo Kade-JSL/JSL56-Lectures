@@ -1,13 +1,13 @@
 ﻿#
-### [221117 ←](/221011-221202_JAVA_BASICS/22-11/221117) | [→ 221121](/221011-221202_JAVA_BASICS/22-11/221121/)
+### [221117 ←](../../221011-221202_JAVA_BASICS/22-11/221117) | [→ 221121](../../221011-221202_JAVA_BASICS/22-11/221121/)
 
 # 이날 배웠던 것
 
-- [**/dto/**: 오버라이딩과 다형성 실습용 이것저것](/221011-221202_JAVA_BASICS/22-11/221118/javastudy/dto/)
+- [**/dto/**: 오버라이딩과 다형성 실습용 이것저것](../../221011-221202_JAVA_BASICS/22-11/221118/javastudy/dto/)
 - **/controller/**
-    - [**MethodOverridingMain.java**: 오버라이드 실습](/221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/MethodOverridingMain.java)
-    - [**AbstractMain.java**: 추상 클래스 실습](/221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/AbstractMain.java)
-    - [**InterfaceMain.java**: 인터페이스 실습](/221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/InterfaceMain.java)
+    - [**MethodOverridingMain.java**: 오버라이드 실습](../../221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/MethodOverridingMain.java)
+    - [**AbstractMain.java**: 추상 클래스 실습](../../221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/AbstractMain.java)
+    - [**InterfaceMain.java**: 인터페이스 실습](../../221011-221202_JAVA_BASICS/22-11/221118/javastudy/controller/InterfaceMain.java)
 
 ---
 
