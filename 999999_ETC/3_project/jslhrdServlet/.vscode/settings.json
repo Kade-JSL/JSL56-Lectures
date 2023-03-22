@@ -1,0 +1,9 @@
+﻿{
+    "java.project.sourcePaths": [
+        "src/"
+    ],
+    "java.project.referencedLibraries": [
+        "WebContent/WEB-INF/lib/*.jar",
+        "C:\\Users\\cucup\\Java\\apache-tomcat-8.5.84\\lib\\*.jar"
+    ]
+}

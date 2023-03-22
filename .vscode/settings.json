@@ -5,6 +5,8 @@
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "999999_ETC/2_ref-libojdbc6.jar"
-    ]
+        "999999_ETC/2_ref-libojdbc6.jar",
+        "C:\\Users\\cucup\\Java\\apache-tomcat-8.5.84\\lib\\*.jar"
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
 }
