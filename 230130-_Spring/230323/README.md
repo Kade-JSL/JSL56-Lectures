@@ -24,3 +24,9 @@ public class SampleController { ...
 
 - 좀 더 인간의 생각방식대로 자동으로 해 준다.
 - RequestParam 어노테이션을 쓰면 요청에서 들어온 패러미터를 자동으로 메서드 안의 패러미터로 넣고, 이 과정에서 형변환도 자동으로 된다.
+
+## 새로운 친구를 소개합니다 이름은 잭슨이라고 해요
+
+- com.fasterxml.jackson.core.jackson-databind 되시겠다.
+- 그럼 컨트롤러 메서드 리턴 타입 앞에 `@ResponseBody` 어노테이션을 붙이고...
+- 리턴 타입을 JavaBean 타입으로 해 주면 알아서 JSON으로 serialize해서 응답해 준다.
