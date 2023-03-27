@@ -1,5 +1,6 @@
 ﻿#
-### [230316 ←](../../230130-_Spring/230316/) | [→ 230320](../../230130-_Spring/230320/)
+
+## [230316 ←](../../230130-_Spring/230316/) | [→ 230320](../../230130-_Spring/230320/)
 
 ---
 
@@ -14,11 +15,13 @@
 - 어제도 말했듯이 이렇게 관리되는 객체들을 빈(Bean)이라 부른다.
 - 이 녀석들은 따로 객체를 생성하지 않아도 스프링에서 객체를 주입해 준다.
 - 빈들은 /WEB-INF/spring/root-context.xml에서 관리한다.
-    - XML로 설정할 경우에 그렇다.
+  - XML로 설정할 경우에 그렇다.
 - STS에서 root-context.xml에 제공하는 Namespaces 탭에서 추가할 기능도 선택할 수 있다.
+
 ```xml
 <context:component-scan base-package="com.hanulso.sample"/>
 ```
+
 - 위와 같이 하면 이제 저 패키지 안에 있는 모든 클래스들은 스프링에서 스캔한 뒤에 빈으로써 객체화하여 관리하게 된다. (@Component 어노테이션을 전부 넣는 것과 같음)
 
 ## 의존성이 주입되었는지 테스트해 보자
@@ -26,4 +29,4 @@
 - 테스트 폴더는 /src/test/java이다.
 - `@RunWith(SpringJUnit4ClassRunner.class)`로 불러와 준다.
 - `@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")`을 이용해서 빈이 있는 경로가 있는 파일을 지정해 준다.
-    - == 그 파일에 있는 패키지 경로에 있는 클래스들을 테스트 대상으로 두겠다
+  - == 그 파일에 있는 패키지 경로에 있는 클래스들을 테스트 대상으로 두겠다

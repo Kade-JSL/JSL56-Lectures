@@ -1,5 +1,6 @@
 ﻿#
-### [230321 ←](../../230130-_Spring/230321/) | [→ 230323](../../230130-_Spring/230323/)
+
+## [230321 ←](../../230130-_Spring/230321/) | [→ 230323](../../230130-_Spring/230323/)
 
 ## 스프링 MVC
 
@@ -13,25 +14,26 @@
 
 - 또는 ServletConfig 같은 이름을 만들어서 AbstractAnnotationConfigDispatcherServletInitializer의 getServletConfigClasses() 메서드에 WebMvcConfigurer 타입을 돌려주면 된다.
 - WebMvcConfigurer 안에서 이제 servlet-context.xml에 있는 것과 같은 설정을 해 주면 된다.
+
 ```java
 @EnableWebMvc // 스프링이 WebMvc와 관련된 클래스라고 인식한다
 @ComponentScan(basePackages = {"com.hanulso.controller"})
 public class ServletConfig implements WebMvcConfigurer {
-	
-	@Override
-	public void configureViewResolvers(ViewResolverRegistry registry) {
-		InternalResourceViewResolver bean = new InternalResourceViewResolver();
-		
-		bean.setViewClass(JstlView.class);
-		bean.setPrefix("/WEB-INF/views");
-		bean.setSuffix(".jsp");
-		registry.viewResolver(bean);
-	}
-	
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
-	}
+ 
+ @Override
+ public void configureViewResolvers(ViewResolverRegistry registry) {
+  InternalResourceViewResolver bean = new InternalResourceViewResolver();
+  
+  bean.setViewClass(JstlView.class);
+  bean.setPrefix("/WEB-INF/views");
+  bean.setSuffix(".jsp");
+  registry.viewResolver(bean);
+ }
+ 
+ @Override
+ public void addResourceHandlers(ResourceHandlerRegistry registry) {
+  registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+ }
 }
 ```
 
@@ -45,4 +47,5 @@ public class ServletConfig implements WebMvcConfigurer {
 1. ViewResolver가 검색 결과를 View에 보냄
 1. View의 처리결과를 DispatcherServlet에 보냄
 1. DispatcherServlet이 최종 결과를 출력
+
 - 요약하자면 web.xml -> root-context -> servlet-context 순서로 설정이 불린다 그 말이다.

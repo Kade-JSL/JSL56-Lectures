@@ -1,11 +1,13 @@
 ﻿#
-### [230317 ←](../../230130-_Spring/230317/) | [→ 230321](../../230130-_Spring/230321/)
+
+## [230317 ←](../../230130-_Spring/230317/) | [→ 230321](../../230130-_Spring/230321/)
 
 ## HikariCP
 
 - Connection Pool 기법을 쉽게 구현할 수 있도록 만들어진 JDBC 프레임워크
 - 다운로드 링크: [https://mvnrepository.com/artifact/com.zaxxer/HikariCP/2.7.4](https://mvnrepository.com/artifact/com.zaxxer/HikariCP/2.7.4)
 - /webapp/WEB-INF/root-context.xml에 다음과 같이 추가해 준다.
+
 ```xml
 <bean id="dataSource" 
     class="com.zaxxer.hikari.HikariDataSource" 
@@ -36,8 +38,8 @@
 
 - DB와 관련된 연결 정보를 담고 있으며 빈으로 등록하여 인자로 넘겨 주고
 - 스프링은 DataSource 빈을 통해 DB와의 연결을 취득한다.
-    - DB 서버와의 연결 성립
-    - 커넥션 풀링 사용 가능
+  - DB 서버와의 연결 성립
+  - 커넥션 풀링 사용 가능
 
 ## DataSource를 스프링에 등록하고 주입하는 법
 
@@ -45,7 +47,7 @@
 - 저렇게 되면 DataSource가 스프링 JDBC를 통해서 빈으로 등록이 된다
 - 그리고 이렇게 생성된 빈을 스프링 JDBC에 주입해 준다는 것.
 
-## root-context.xml이 아니라 RootConfig.java에서는...
+## root-context.xml이 아니라 RootConfig.java에서는
 
 ```java
 ...

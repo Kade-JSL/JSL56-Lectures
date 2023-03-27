@@ -1,18 +1,16 @@
 ﻿#
-### [230315 ←](../../230130-_Spring/230315/) | [→ 230317](../../230130-_Spring/230317/)
 
-# 이날 배웠던 것
+## [230315 ←](../../230130-_Spring/230315/) | [→ 230317](../../230130-_Spring/230317/)
 
----
-
-## Spring에선...
+## Spring에선
 
 - Servlet이 DispatcherServlet이 되어서 새로 서브클래스를 만들 필요가 없다. doGet()이나 doPost()를 오버라이드해서 작성하지 않아도 된다.
 - 그니깐 진짜로 로직에만 신경써도 된대두.
 
-## XML로 설정할 수도 있지만...
+## XML로 설정할 수도 있지만
 
 - Java로 웹 앱의 설정을 바꿀 수도 있다.
+
 ```xml
 ...
 <plugin>
@@ -25,9 +23,11 @@
 </plugin>
 ...
 ```
+
 - 다음과 같이 설정해서 web.xml이 없어도 war를 빌드할 수 있도록 한다.
 - 클래스를 만든 다음 어노테이션(지금의 경우엔 `@Configuration`)을 붙여서 프레임워크가 어떤 역할의 클래스인지 알아보도록 한다.
 - web.xml을 대신하는 클래스는 이렇게 만든다.
+
 ```java
 package com.hanulso.config;
 
@@ -36,23 +36,24 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 // web.xml을 대신하는 클래스
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-	@Override
-	protected Class<?>[] getRootConfigClasses() {
-		return null;
-	}
+ @Override
+ protected Class<?>[] getRootConfigClasses() {
+  return null;
+ }
 
-	@Override
-	protected Class<?>[] getServletConfigClasses() {
-		return null;
-	}
+ @Override
+ protected Class<?>[] getServletConfigClasses() {
+  return null;
+ }
 
-	@Override
-	protected String[] getServletMappings() {
-		return null;
-	}
-	
+ @Override
+ protected String[] getServletMappings() {
+  return null;
+ }
+ 
 }
 ```
+
 - 정말 클래스 이름 한 번 드럽게 길다.
 
 ## Bean이란?
@@ -64,18 +65,22 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 
 - A라는 클래스에서 B, C, D... 같은 클래스들을 사용하고 싶다고 생각해 보자.
 - 그러면 우리는 이렇게 써야 한다.
+
 ```java
 class A {
     B b = new B();
     // 이러고 나서야 B의 멤버변수들과 메서드에 접근할 수 있게 됨
 }
 ```
+
 - 근데 스프링에서는 걍 이렇게만 해 줘도 된다!
+
 ```java
 class A {
     B b;
 }
 ```
+
 - 그럼 스프링이 알아서 생성해서 주입시켜 준댄다.
 
 ## lombok?
@@ -86,7 +91,7 @@ class A {
 - org.projectlombok.lombok으로 불러온다.
 - Gradle 방식으로 dependency 불러오기: 스프링부트에서 된다.
 
-## log4j 2버전 이하는 매우 심각한 보안 결함이 있습니다.
+## log4j 2버전 이하는 매우 심각한 보안 결함이 있습니다
 
 - 얼마나 심각하냐면 로깅으로 낑겨들어가서 웹 사용자들의 정보까지 캐낼 수 있는 정도의 심각한 결함이에요.
 - 하지만 우리는 프로덕션 환경에 웹페이지를 놓진 않습니다. 로컬호스트에 놓을 뿐이죠... 아직은요.
