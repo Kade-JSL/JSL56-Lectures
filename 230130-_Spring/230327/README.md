@@ -13,9 +13,9 @@
 ```java
 @GetMapping("/ex05")
 public String ex05(SampleVO vo, @ModelAttribute("page") int page) {
-    log.info("SampleVO: " + vo);
-    log.info("Page: " + page);
-    return "/sample/ex05";
+  log.info("SampleVO: " + vo);
+  log.info("Page: " + page);
+  return "/sample/ex05";
 }
 ```
 
