@@ -20,44 +20,44 @@
 ## 갑자기 분위기 기초 자바문법
 
 ```java
-  int[] a; // 맞음
-  int a[] // 맞음
-  int a[2]; // 틀림
-  int[] a = new int[2]; // 이게 맞음
+int[] a; // 맞음
+int a[] // 맞음
+int a[2]; // 틀림
+int[] a = new int[2]; // 이게 맞음
 ```
 
 - 인덱스를 적는 것은 대입할 때!
 
 ```java
-  int a = 0;
-  do {
-      System.out.println(a++);
-  } while (a == 10);
+int a = 0;
+do {
+    System.out.println(a++);
+} while (a == 10);
 ```
 
 - 이 경우 콘솔엔 `0`이 출력되고(`a++`은 1이 더해지기 전에 괄호 밖의 코드를 실행하므로) `a`가 10이 아니므로 반복문을 빠져나온다.
 - 즉 콘솔에 `0`만 출력된다.
 
 ```java
-  int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
-  static void method1() {
-      try {
-         method2();
-      } catch (Exception e) {
-          System.out.println("method1");
-      }
-  }
-  static void method2() {
-      try {
-          System.out.println(a[12]);
-      } catch (ArithmeticException e) {
-          System.out.println("method2");
-      }
-  }
+int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+static void method1() {
+    try {
+        method2();
+    } catch (Exception e) {
+        System.out.println("method1");
+    }
+}
+static void method2() {
+    try {
+        System.out.println(a[12]);
+    } catch (ArithmeticException e) {
+        System.out.println("method2");
+    }
+}
 
-  public static void main(String[] args) {
-      method1();
-  }
+public static void main(String[] args) {
+    method1();
+}
 ```
 
 - 이 경우, `a` 배열의 인덱스는 11까지밖에 없기 때문에 `method2()`의 출력문에서 예외가 발생.
@@ -73,28 +73,28 @@
 - servlet-context.xml에 다음과 같이 추가해 준다.
 
 ```xml
-  <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-      <beans:property name="defaultEncoding" value="UTF-8"></beans:property>
-      <beans:property name="maxUploadSize" value="10485760"></beans:property>
-      <beans:property name="maxUploadSizePerFile" value="2097152"></beans:property>
-      <beans:property name="uploadTempDir" value="file:/C:/Users/cucup/Gogs/spring56/supload"></beans:property>
-      <beans:property name="maxInMemorySize" value="1048576"></beans:property>
-  </beans:bean>
+<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <beans:property name="defaultEncoding" value="UTF-8"></beans:property>
+    <beans:property name="maxUploadSize" value="10485760"></beans:property>
+    <beans:property name="maxUploadSizePerFile" value="2097152"></beans:property>
+    <beans:property name="uploadTempDir" value="file:/C:/Users/cucup/Gogs/spring56/supload"></beans:property>
+    <beans:property name="maxInMemorySize" value="1048576"></beans:property>
+</beans:bean>
 ```
 
 - 자바 설정은 `com.hanulso.config.ServletConfig`에 가서 다음과 같이 해 준다. 당연히 XML 버전과 일치하는 부분이 보일 것이다.
 
 ```java
-  @Bean(name = "multipartResolver")
-  public CommonsMultipartResolver getResolver() throws IOException {
-      CommonsMultipartResolver resolver = new CommonsMultipartResolver();
-      resolver.setMaxUploadSize(10 * 1024 * 1024);
-      resolver.setMaxUploadSizePerFile(2 * 1024 * 1024);
-      resolver.setMaxInMemorySize(1024 * 1024);
-      resolver.setDefaultEncoding("UTF-8");
-      resolver.setUploadTempDir(new FileSystemResource("file:/C:/Users/cucup/Gogs/spring56/supload"));
-      return resolver;
-  }
+@Bean(name = "multipartResolver")
+public CommonsMultipartResolver getResolver() throws IOException {
+    CommonsMultipartResolver resolver = new CommonsMultipartResolver();
+    resolver.setMaxUploadSize(10 * 1024 * 1024);
+    resolver.setMaxUploadSizePerFile(2 * 1024 * 1024);
+    resolver.setMaxInMemorySize(1024 * 1024);
+    resolver.setDefaultEncoding("UTF-8");
+    resolver.setUploadTempDir(new FileSystemResource("file:/C:/Users/cucup/Gogs/spring56/supload"));
+    return resolver;
+}
 ```
 
 ## 스프링 MVC에서의 예외 처리
@@ -106,18 +106,18 @@
 - `model.addAttribute()` == `request.setAttribute()`
 
 ```java
-  @ControllerAdvice
-  @Log4j2
-  public class CommonExceptionAdvice {
+@ControllerAdvice
+@Log4j2
+public class CommonExceptionAdvice {
 
-      @ExceptionHandler(Exception.class)
-      public String except(Exception ex, Model model) {
-          log.error("Exception >>> " + ex.getMessage());
-          model.addAttribute("exception", ex);
-          log.error(model);
-          return "error_page";
-      }
-  }
+    @ExceptionHandler(Exception.class)
+    public String except(Exception ex, Model model) {
+        log.error("Exception >>> " + ex.getMessage());
+        model.addAttribute("exception", ex);
+        log.error(model);
+        return "error_page";
+    }
+}
 ```
 
 ## 404 Not Found 에러도 처리해 보자
