@@ -31,7 +31,7 @@
 ```java
   int a = 0;
   do {
-    System.out.println(a++);
+      System.out.println(a++);
   } while (a == 10);
 ```
 
@@ -41,22 +41,22 @@
 ```java
   int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
   static void method1() {
-    try {
-      method2();
-    } catch (Exception e) {
-      System.out.println("method1");
-    }
+      try {
+         method2();
+      } catch (Exception e) {
+          System.out.println("method1");
+      }
   }
   static void method2() {
-    try {
-      System.out.println(a[12]);
-    } catch (ArithmeticException e) {
-      System.out.println("method2");
-    }
+      try {
+          System.out.println(a[12]);
+      } catch (ArithmeticException e) {
+          System.out.println("method2");
+      }
   }
 
   public static void main(String[] args) {
-    method1();
+      method1();
   }
 ```
 
@@ -74,11 +74,11 @@
 
 ```xml
   <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-    <beans:property name="defaultEncoding" value="UTF-8"></beans:property>
-    <beans:property name="maxUploadSize" value="10485760"></beans:property>
-    <beans:property name="maxUploadSizePerFile" value="2097152"></beans:property>
-    <beans:property name="uploadTempDir" value="file:/C:/Users/cucup/Gogs/spring56/supload"></beans:property>
-    <beans:property name="maxInMemorySize" value="1048576"></beans:property>
+      <beans:property name="defaultEncoding" value="UTF-8"></beans:property>
+      <beans:property name="maxUploadSize" value="10485760"></beans:property>
+      <beans:property name="maxUploadSizePerFile" value="2097152"></beans:property>
+      <beans:property name="uploadTempDir" value="file:/C:/Users/cucup/Gogs/spring56/supload"></beans:property>
+      <beans:property name="maxInMemorySize" value="1048576"></beans:property>
   </beans:bean>
 ```
 
@@ -87,13 +87,13 @@
 ```java
   @Bean(name = "multipartResolver")
   public CommonsMultipartResolver getResolver() throws IOException {
-    CommonsMultipartResolver resolver = new CommonsMultipartResolver();
-    resolver.setMaxUploadSize(10 * 1024 * 1024);
-    resolver.setMaxUploadSizePerFile(2 * 1024 * 1024);
-    resolver.setMaxInMemorySize(1024 * 1024);
-    resolver.setDefaultEncoding("UTF-8");
-    resolver.setUploadTempDir(new FileSystemResource("file:/C:/Users/cucup/Gogs/spring56/supload"));
-    return resolver;
+      CommonsMultipartResolver resolver = new CommonsMultipartResolver();
+      resolver.setMaxUploadSize(10 * 1024 * 1024);
+      resolver.setMaxUploadSizePerFile(2 * 1024 * 1024);
+      resolver.setMaxInMemorySize(1024 * 1024);
+      resolver.setDefaultEncoding("UTF-8");
+      resolver.setUploadTempDir(new FileSystemResource("file:/C:/Users/cucup/Gogs/spring56/supload"));
+      return resolver;
   }
 ```
 
@@ -110,13 +110,13 @@
   @Log4j2
   public class CommonExceptionAdvice {
 
-    @ExceptionHandler(Exception.class)
-    public String except(Exception ex, Model model) {
-      log.error("Exception >>> " + ex.getMessage());
-      model.addAttribute("exception", ex);
-      log.error(model);
-      return "error_page";
-    }
+      @ExceptionHandler(Exception.class)
+      public String except(Exception ex, Model model) {
+          log.error("Exception >>> " + ex.getMessage());
+          model.addAttribute("exception", ex);
+          log.error(model);
+          return "error_page";
+      }
   }
 ```
 
