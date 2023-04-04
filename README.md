@@ -5,7 +5,7 @@
 
 **최근 5주간의 내용만 메인에 있습니다.**
 
-| → | [3](/230130-_Spring/230403/) | 4 | 5 | 6 | 7 |
+| → | [3](/230130-_Spring/230403/) | [4](/230130-_Spring/230404/) | 5 | 6 | 7 |
 |---|---|---|---|---|---|
 || [27](/230130-_Spring/230327/) | [28](/230130-_Spring/230328/) | [29](/230130-_Spring/230329/) | [30](/230130-_Spring/230330/) | [31](/230130-_Spring/230331/) |
 || [20](/230130-_Spring/230320/) | [21](/230130-_Spring/230321/) | [22](/230130-_Spring/230322/) | [23](/230130-_Spring/230323/) | 24 |
@@ -19,6 +19,7 @@
 - [한-일 코딩 용어 간단 비교표(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
 - [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
+  - [Maven Repository](https://mvnrepository.com/)
   - [json-simple 1.1.1](https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar)
   - [JavaMail API 1.4.7](https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.4.7/javax.mail-1.4.7.jar)
   - [com.oreilly.servlet 라이브러리](http://www.servlets.com/cos/cos-22.05.zip)
