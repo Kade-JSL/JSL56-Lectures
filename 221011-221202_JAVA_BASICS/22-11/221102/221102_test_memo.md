@@ -42,7 +42,7 @@
 - `mkdir`: MaKe DIRectory의 약자로 현재 있는 위치에 매개변수로 정한 대로 디렉토리 생성
     - `-p`: 하위 폴더 구조까지 입력하면 전부 만듦
 - `cat`: conCATenate의 약자로, 지정한 파일의 내용을 터미널에 표시
-- `redirection`: 화면에 출력되는 결과를 파일로 저장
+- `redirection`(`>>`): 화면에 출력되는 결과를 파일로 저장
 - `pwd`: Print Working Directory의 약자로, 현재 디렉토리의 위치를 확인
 - `chmod`: 파일의 권한 모드 설정을 함
 
