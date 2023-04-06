@@ -26,10 +26,10 @@
         value="jdbc:oracle:thin:@localhost:1521:xe"
     />
     <property name="username"
-        value="kade01"
+        value="***REMOVED***"
     />
     <property name="password"
-        value="1234"
+        value="***REMOVED***"
     />
 </bean>
 ```
@@ -56,8 +56,8 @@ public DataSource dataSource() {
     
     hikariConfig.setDriverClassName("oracle.jdbc.driver.OracleDriver");
     hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:xe");
-    hikariConfig.setUsername("kade01");
-    hikariConfig.setPassword("1234");
+    hikariConfig.setUsername("***REMOVED***");
+    hikariConfig.setPassword("***REMOVED***");
     
     HikariDataSource dataSource = new HikariDataSource();
     
