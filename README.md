@@ -1,9 +1,9 @@
 #
-### <p align="center">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓<br><a href="http://oeuiuapk8ruwdv1pu8ye.duckdns.org:10880/kade-jsl/JSL56-lectures/src/main/999999_ETC/0_docs/Tutorial.md#%EB%8F%8C%EC%95%84%EC%98%A4%EC%85%A8%EB%82%98%EC%9A%94-%EC%9E%98-%ED%95%98%EC%85%A8%EC%8A%B5%EB%8B%88%EB%8B%A4"><b>리포지토리 사용 설명서</b></a><br>↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑</p>
+### <p align="center">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓<br><a href="https://github.com/Kade-JSL/JSL56-Lectures/blob/main/999999_ETC/0_docs/Tutorial.md#%EB%8F%8C%EC%95%84%EC%98%A4%EC%85%A8%EB%82%98%EC%9A%94-%EC%9E%98-%ED%95%98%EC%85%A8%EC%8A%B5%EB%8B%88%EB%8B%A4"><b>리포지토리 사용 설명서</b></a><br>↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑</p>
 
 # Calendar
 
-**최근 5주간의 내용만 메인에 있습니다.**
+**링크가 없다면 그 날짜에는 필기를 하지 않은 것입니다.**
 
 | → | [3](/230130-_Spring/230403/) | [4](/230130-_Spring/230404/) | [5](/230130-_Spring/230405/) | 6 | 7 |
 |---|---|---|---|---|---|
