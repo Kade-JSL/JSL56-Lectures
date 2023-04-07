@@ -1,17 +1,17 @@
 ﻿#
-### [221123 ←](../../221011-221202_JAVA_BASICS/22-11/221123) | [→ 221125](../../221011-221202_JAVA_BASICS/22-11/221125)
+### [221123 ←](/221011-221202_JAVA_BASICS/22-11/221123) | [→ 221125](/221011-221202_JAVA_BASICS/22-11/221125)
 
 # 이날 배웠던 것
 
-- [/controller/](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/)
-    - [**MapMain.java**: `HashMap` 입문](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/MapMain.java)
-    - [**MapMainTwo.java**: `HashMap` 객체 메서드 사용](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/MapMainTwo.java)
-    - [**ScoreMain.java**: 연습문제 코드 실행용 클래스](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/ScoreMain.java)
-- [/dao/](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/)
-    - [**ScoreDaoImpl.java**: 점수 입력 프로그램의 `HashMap` 버전](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/ScoreDaoImpl.java)
-    - [**ScoreDao.java**: 점수 입력 프로그램 인터페이스](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/ScoreDao.java)
-- [/dto/](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/dto/)
-    - [**Student.java**: `enum`이 모든 가독성을 망쳤지만... ~~닷떼 오니쨩... enum은 좋은 문명인걸...~~](../../221011-221202_JAVA_BASICS/22-11/221124/javastudy/dto/Student.java)
+- [/controller/](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/)
+    - [**MapMain.java**: `HashMap` 입문](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/MapMain.java)
+    - [**MapMainTwo.java**: `HashMap` 객체 메서드 사용](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/MapMainTwo.java)
+    - [**ScoreMain.java**: 연습문제 코드 실행용 클래스](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/controller/ScoreMain.java)
+- [/dao/](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/)
+    - [**ScoreDaoImpl.java**: 점수 입력 프로그램의 `HashMap` 버전](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/ScoreDaoImpl.java)
+    - [**ScoreDao.java**: 점수 입력 프로그램 인터페이스](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/dao/ScoreDao.java)
+- [/dto/](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/dto/)
+    - [**Student.java**: `enum`이 모든 가독성을 망쳤지만... ~~닷떼 오니쨩... enum은 좋은 문명인걸...~~](/221011-221202_JAVA_BASICS/22-11/221124/javastudy/dto/Student.java)
 
 ---
 

@@ -1,12 +1,12 @@
 ﻿#
-### [221213 ←](../../../221205-230127_JSP/22-12/221213/) | [→ 221215](../../../221205-230127_JSP/22-12/221215/)
+### [221213 ←](/../221205-230127_JSP/22-12/221213/) | [→ 221215](/../221205-230127_JSP/22-12/221215/)
 
 # 이날 배웠던 것
 
 - [**다음날 할 내부평가 시험 문제 필기**](#제4회내부평가시험과목프로그래밍언어응용)
-- [프로젝트 파일 폴더](../../999999_ETC/3_project/jslhrdServlet/)
-    - [**/src**](../../999999_ETC/3_project/jslhrdServlet/src/): 이런저런 자바 소스
-    - [**/WebContent**](../../999999_ETC/3_project/jslhrdServlet/WebContent/): 이런저런 JSP 소스, HTML의 잔해들
+- [프로젝트 파일 폴더](/999999_ETC/3_project/jslhrdServlet/)
+    - [**/src**](/999999_ETC/3_project/jslhrdServlet/src/): 이런저런 자바 소스
+    - [**/WebContent**](/999999_ETC/3_project/jslhrdServlet/WebContent/): 이런저런 JSP 소스, HTML의 잔해들
 
 ---
 

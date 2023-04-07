@@ -1,12 +1,12 @@
 ﻿#
-### [221104 ←](../../221011-221202_JAVA_BASICS/22-11/221104) | [→ 221108](../../221011-221202_JAVA_BASICS/22-11/221108/)
+### [221104 ←](/221011-221202_JAVA_BASICS/22-11/221104) | [→ 221108](/221011-221202_JAVA_BASICS/22-11/221108/)
 
 # 이날 배웠던 것(+a)
 
-- [Object04.java: 메서드 실습](../../221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object04.java)
-- [Object05.java: `try`문과 `catch`문](../../221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object05.java)
-- [Object03.java: 무언가 캡슐화 비스무리한 걸 하려고 시도한 흔적](../../221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object03.java)
-    - [exampleMethodsAdd.java: 그 흔적의 흔적](../../221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/exampleMethodsAdd.java)
+- [Object04.java: 메서드 실습](/221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object04.java)
+- [Object05.java: `try`문과 `catch`문](/221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object05.java)
+- [Object03.java: 무언가 캡슐화 비스무리한 걸 하려고 시도한 흔적](/221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/Object03.java)
+    - [exampleMethodsAdd.java: 그 흔적의 흔적](/221011-221202_JAVA_BASICS/22-11/221107/javastudy56/javastudy/src/javastudy/exampleMethodsAdd.java)
 
 ---
 

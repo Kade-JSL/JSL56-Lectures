@@ -1,10 +1,10 @@
 ﻿#
-### [221114 ←](../../221011-221202_JAVA_BASICS/22-11/221114) | [→ 221116](../../221011-221202_JAVA_BASICS/22-11/221116/)
+### [221114 ←](/221011-221202_JAVA_BASICS/22-11/221114) | [→ 221116](/221011-221202_JAVA_BASICS/22-11/221116/)
 
 # 이날 배웠던 것
 
-- [**/dao/DBConn.java**: 데이터베이스와 자바 코드를 연계하는 Connector 클래스와 그에 필요한 라이브러리들](../../221011-221202_JAVA_BASICS/22-11/221115/javastudy/dao/DBConn.java)
-- [**/controller/SingletonMain.java**: 싱글톤 패턴의 개념과 Java에서의 그 구현](../../221011-221202_JAVA_BASICS/22-11/221115/javastudy/controller/SingletonMain.java)
+- [**/dao/DBConn.java**: 데이터베이스와 자바 코드를 연계하는 Connector 클래스와 그에 필요한 라이브러리들](/221011-221202_JAVA_BASICS/22-11/221115/javastudy/dao/DBConn.java)
+- [**/controller/SingletonMain.java**: 싱글톤 패턴의 개념과 Java에서의 그 구현](/221011-221202_JAVA_BASICS/22-11/221115/javastudy/controller/SingletonMain.java)
 
 ---
 

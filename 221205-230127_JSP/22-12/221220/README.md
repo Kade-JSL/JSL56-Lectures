@@ -1,19 +1,19 @@
 ﻿#
-### [221219 ←](../../../221205-230127_JSP/22-12/221219/) | [→ 221221](../../../221205-230127_JSP/22-12/221221/)
+### [221219 ←](/../221205-230127_JSP/22-12/221219/) | [→ 221221](/../221205-230127_JSP/22-12/221221/)
 
 # 이날 배웠던 것
 
 - /src/com/jslhrd/
     - controller/notice/
-        - [Notice.java](../../../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/controller/notice/Notice.java): 게시판 페이지를 나눌 수 있도록 doGet() 메서드를 개조
+        - [Notice.java](/../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/controller/notice/Notice.java): 게시판 페이지를 나눌 수 있도록 doGet() 메서드를 개조
     - dao/
-        - [NoticeDao.java](../../../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/dao/NoticeDao.java): 게시판 페이지에 맞추어 메서드를 새로 작성
+        - [NoticeDao.java](/../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/dao/NoticeDao.java): 게시판 페이지에 맞추어 메서드를 새로 작성
     - utility/
-        - [Criteria.java](../../../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/utility/Criteria.java): 게시판 페이지와 관련된 객체
-        - [PageDto.java](../../../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/utility/PageDto.java): 게시판 페이지와 관련하여 오가는 데이터
+        - [Criteria.java](/../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/utility/Criteria.java): 게시판 페이지와 관련된 객체
+        - [PageDto.java](/../221205-230127_JSP/22-12/221220/jslhrdServlet/src/com/jslhrd/utility/PageDto.java): 게시판 페이지와 관련하여 오가는 데이터
 - /WebContent/notice/
-    - [notice.jsp](../../../221205-230127_JSP/22-12/221220/jslhrdServlet/WebContent/notice/notice.jsp): 게시판 페이지가 나오도록 디자인
-- [**sqlinput.sql**](../../../221205-230127_JSP/22-12/221220/sqlinput.sql): FAQ1 테이블과 FAQ2 테이블 생성, 레코드 삽입, 검색 및 기타 작업 관련 쿼리
+    - [notice.jsp](/../221205-230127_JSP/22-12/221220/jslhrdServlet/WebContent/notice/notice.jsp): 게시판 페이지가 나오도록 디자인
+- [**sqlinput.sql**](/../221205-230127_JSP/22-12/221220/sqlinput.sql): FAQ1 테이블과 FAQ2 테이블 생성, 레코드 삽입, 검색 및 기타 작업 관련 쿼리
 
 ---
 

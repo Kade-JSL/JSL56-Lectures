@@ -1,6 +1,4 @@
-﻿#
-
-### [230403 ←](../../230130-_Spring/230403/) | [→ 230405](../../230130-_Spring/230405/)
+﻿### [230403 ←](/230130-_Spring/230403/) | [→ 230405](/230130-_Spring/230405/)
 
 ## `org.springframework.web.servlet.mvc.support.RedirectAttributes`
 

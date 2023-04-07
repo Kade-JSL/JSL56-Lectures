@@ -1,17 +1,17 @@
 ﻿#
-### [221205 ←](../../../221205-230127_JSP/22-12/221205/) | [→ 221207](../../../221205-230127_JSP/22-12/221207/)
+### [221205 ←](/../221205-230127_JSP/22-12/221205/) | [→ 221207](/../221205-230127_JSP/22-12/221207/)
 
 # 이날 배웠던 것
 
-- [/src/model/](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/)
-    - [**Vo.java**: DB에서 넘어온 값들이 정리되는 객체](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/Vo.java)
-    - [**Dao.java**: DB에 접근하여 VO 객체를 활용하는 객체](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/Dao.java)
-- [/WebContent/](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/)
-    - [**sub1.jsp**: `<form>` 태그로 학생 등록](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub1.jsp)
-        - [**sub1pro.jsp**: `request` 객체로 넘어온 값을 DAO를 통해 `TBL_STUDENT`에 쿼리](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub1pro.jsp)
-    - [**sub2.jsp**: 같은 태그로 성적 입력](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub2.jsp)
-        - [**sub2pro.jsp**: 같은 방법으로 `TBL_SCORE`에 쿼리](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub2pro.jsp)
-    - [**sub3.jsp**: Servlet을 이용해 JSP 파일에 자바 코드를 임베드](../../../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub3.jsp)
+- [/src/model/](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/)
+    - [**Vo.java**: DB에서 넘어온 값들이 정리되는 객체](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/Vo.java)
+    - [**Dao.java**: DB에 접근하여 VO 객체를 활용하는 객체](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/src/model/Dao.java)
+- [/WebContent/](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/)
+    - [**sub1.jsp**: `<form>` 태그로 학생 등록](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub1.jsp)
+        - [**sub1pro.jsp**: `request` 객체로 넘어온 값을 DAO를 통해 `TBL_STUDENT`에 쿼리](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub1pro.jsp)
+    - [**sub2.jsp**: 같은 태그로 성적 입력](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub2.jsp)
+        - [**sub2pro.jsp**: 같은 방법으로 `TBL_SCORE`에 쿼리](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub2pro.jsp)
+    - [**sub3.jsp**: Servlet을 이용해 JSP 파일에 자바 코드를 임베드](/../221205-230127_JSP/22-12/221206/jspstudy56/HighScore/WebContent/sub3.jsp)
 
 ---
 

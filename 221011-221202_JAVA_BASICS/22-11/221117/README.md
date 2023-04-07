@@ -1,11 +1,11 @@
 ﻿#
-### [221116 ←](../../221011-221202_JAVA_BASICS/22-11/221116) | [→ 221118](../../221011-221202_JAVA_BASICS/22-11/221118/)
+### [221116 ←](/221011-221202_JAVA_BASICS/22-11/221116) | [→ 221118](/221011-221202_JAVA_BASICS/22-11/221118/)
 
 # 이날 배웠던 것
 
-- [**BankMain.java**, etc: 메뉴를 하나 추가해 봄. 그게 다.](../../221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/BankMain.java)
-- [**Polymorphism01.java**: 다형성 소개, 업캐스팅과 다운캐스팅](../../221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/Polymorphism01.java)
-- [**Polymorphism02.java**: 다형성 활용, 상위 클래스 타입 메서드](../../221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/Polymorphism02.java)
+- [**BankMain.java**, etc: 메뉴를 하나 추가해 봄. 그게 다.](/221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/BankMain.java)
+- [**Polymorphism01.java**: 다형성 소개, 업캐스팅과 다운캐스팅](/221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/Polymorphism01.java)
+- [**Polymorphism02.java**: 다형성 활용, 상위 클래스 타입 메서드](/221011-221202_JAVA_BASICS/22-11/221117/javastudy/controller/Polymorphism02.java)
 
 ---
 

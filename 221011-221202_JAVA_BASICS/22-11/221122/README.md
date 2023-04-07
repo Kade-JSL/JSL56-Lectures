@@ -1,17 +1,17 @@
 ﻿#
-### [221121 ←](../../221011-221202_JAVA_BASICS/22-11/221121) | [→ 221123](../../221011-221202_JAVA_BASICS/22-11/221123/)
+### [221121 ←](/221011-221202_JAVA_BASICS/22-11/221121) | [→ 221123](/221011-221202_JAVA_BASICS/22-11/221123/)
 
 # 이날 배웠던 것
 
-- [/controller/](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/)
-    - [**RegexMain.java**: 정규표현식에 대한 간단한 입문](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/RegexMain.java)
-    - [**CalendarMain.java**: 자바 시간 라이브러리에 대한 설명과 실습](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/CalendarMain.java)
-    - [**SimpleDateFormatMain.java**: 자바 시간 포매팅에 대한 설명과 실습](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/SimpleDateFormatMain.java)
-    - [**CollectionMain.java**: 컬렉션 프레임워크에 대한 이해, `ArrayList` 실습](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/CollectionMain.java)
-- [/dao/](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/dao/)
-    - [**CalendarDao.java**: `Calendar` 클래스를 이용하여 간단한 달력 출력하기](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/dao/CalendarDao.java)
-- [/dto/](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/dto/)
-    - [**Student.java**: `ArrayList` 실습에 활용된 클래스 객체](../../221011-221202_JAVA_BASICS/22-11/221122/javastudy/dto/Student.java)
+- [/controller/](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/)
+    - [**RegexMain.java**: 정규표현식에 대한 간단한 입문](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/RegexMain.java)
+    - [**CalendarMain.java**: 자바 시간 라이브러리에 대한 설명과 실습](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/CalendarMain.java)
+    - [**SimpleDateFormatMain.java**: 자바 시간 포매팅에 대한 설명과 실습](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/SimpleDateFormatMain.java)
+    - [**CollectionMain.java**: 컬렉션 프레임워크에 대한 이해, `ArrayList` 실습](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/controller/CollectionMain.java)
+- [/dao/](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/dao/)
+    - [**CalendarDao.java**: `Calendar` 클래스를 이용하여 간단한 달력 출력하기](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/dao/CalendarDao.java)
+- [/dto/](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/dto/)
+    - [**Student.java**: `ArrayList` 실습에 활용된 클래스 객체](/221011-221202_JAVA_BASICS/22-11/221122/javastudy/dto/Student.java)
 
 ---
 
@@ -100,7 +100,7 @@
 
 - 컬렉션은 제네릭 기법으로 구현됨
 - 컬렉션의 요소는 객체 타입만 사용 가능하다. 기본형도 사용할 수 있다.
-    - 뭘 쓰면? [Wrapper](../../221011-221202_JAVA_BASICS/22-11/221121#wrapper-클래스)를 쓰면!
+    - 뭘 쓰면? [Wrapper](/221011-221202_JAVA_BASICS/22-11/221121#wrapper-클래스)를 쓰면!
 
 **_저 진짜 거의 연수 시작 즈음에 이 축복받은 객체를 우연히 알게 돼서 잘 썼는데... 저번 주말에 여러분한테 보여주는 코드 쓸 땐 그걸 안 쓰고 객체 배열을 만들려고 하니까 진짜 너무... 너무너무 고통이었어요... 진짜 좋습니다 꼭 쓰세요..._**
 
