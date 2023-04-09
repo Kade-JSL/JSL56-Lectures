@@ -10,6 +10,8 @@
 
 ## `<if>`
 
+- 조건분기문. 특기할 점이라면 글자를 쓴 다음에 `toString()`을 해 줘야 한다는 거. 이유는 몰?루
+
     ```xml
     <if test="target == 'T'.toString()">
         title LIKE '%'||#{keyword}||'%'
@@ -27,6 +29,8 @@
 
 ## `<choose>` ~ `<when>`, `<otherwise>`
 
+- 다중 조건분기문. JSTL의 core 태그와 완벽하게 동일한 기능을 한다.
+
     ```xml
     <choose>
         <when test="target == 'T'.toString()">
@@ -43,8 +47,6 @@
         </otherwise>
     </choose>
     ```
-
-- choose 태그는 JSTL처럼 한 가지 경우만 선택되어 실행된다.
 
 ## `<where>`
 
@@ -125,15 +127,15 @@
     SELECT * FROM pieces WHERE (content = #{val} OR title = #{val});
     ```
 
-## MyBatis와 Java
-
-- MyBatis는 엄격한 자바 규칙을 따르지 않아서 그냥 get뭐뭐뭐라는 메서드만 있으면 그 뭐뭐뭐를 불러온다. 그래서 해당 검색 관련 메서드에서 `TargetArr` 메서드를 호출할 수 있는 것.
+- MyBatis는 엄격한 자바 규칙을 따르지 않아서 그냥 get뭐뭐뭐라는 메서드만 있으면 그 뭐뭐뭐를 읽는다. 그래서 해당 검색 관련 메서드에서 `getTargetArr` 메서드를 호출할 수 있는 것.
 
 ## 머리 터진다
 
+- HTML도 아닌데 태그셉션을 또 봐야 한다. 뭐 조건분기란 그런 것이리라.
+
     ```xml
     <trim prefixOverrides="OR">
-		<foreach item="target" collection="TargetArr">
+		<foreach item="target" collection="targetArr">
 			<trim prefix="OR">
 				<choose>
 					<when test="target == 'T'.toString()">
@@ -163,6 +165,9 @@
     - 바깥쪽 `<trim>`: `p.title LIKE '%||#{keyword}||%' OR p.content LIKE '%||#{keyword}||%'`
 1. `U`만 들어갔을 때
     - `u.uname = #{keyword}`
+	
+## 저의 구현례
+
 - 제 경우에는 검색어가 없는 쿼리문이 다음과 같았습니다.
 
     ```sql
@@ -183,10 +188,10 @@
     ```
 
 - `WHERE`절에 들어갈 것을 싹 모아 놨기 때문에, 필수적인 조건인 게시판 이름 다음에 검색어의 유무에 따라 `AND`를 붙일지 말지만 결정하면 됐습니다.
-- 그래서 위의 괴상한 코드 앞에 `TypeArr`의 유무를 체크하는 조건문을 하나 더 달아 놨죠.
+- 그래서 위의 괴상한 코드 앞에 `targetArr`의 유무를 체크하는 조건문을 하나 더 달아 놨죠.
 
     ```xml
-    <if test="TypeArr != null">
+    <if test="targetArr != null">
         AND
     </if>
     ```
