@@ -17,7 +17,7 @@
 
 # 유용한 링크
 
-- [정보처리산업기사 외부평가 필기 기출문제 복원 및 풀이](/999999_ETC/0_docs/%ED%95%84%EA%B8%B0%EC%8B%9C%ED%97%98%20%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C%20%EB%B3%B5%EC%9B%90%20%EB%B0%8F%20%ED%92%80%EC%9D%B4.md)
+- [정보처리산업기사 외부평가 필기 기출문제 복원 및 풀이](/999999_ETC/0_docs/220412_test.md)
 - [한-일 코딩 용어 간단 비교표(Vocabulary.md)](/999999_ETC/0_docs/Vocabulary.md)
 - [한-일 코딩 용어 설명 및 번역 정리(Glossary.md)](/999999_ETC/0_docs/Glossary.md)
 - 수업에서 사용한 라이브러리 링크
